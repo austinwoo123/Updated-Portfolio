@@ -1,0 +1,16 @@
+html {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+}
+
+.profile-box{
+    width: 450px;
+    height: 450px;
+    background-color: black;
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+
+
+}

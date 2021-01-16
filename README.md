@@ -26,13 +26,36 @@ https://austinwoo123.github.io/Updated-Portfolio/
 4. Open the index.html, script.js, and style.css file
 -----------------------
 ## Code Snippets
+```
+/ hamburger menu toggle variables
+var navbarToggle = $("#nav-toggle");
+var navMenu = $("#navbarBasicExample");
+var toggle = 0;
+// hamburger menu toggle
+$("#nav-toggle").click(function () {
+    if (toggle === 0) {
+        navbarToggle.attr("class", "navbar-burger nav-toggle is-active");
+        navMenu.attr("class", "navbar-menu is-active");
+        toggle++;
+    }
+    else {
+        navbarToggle.attr("class", "navbar-burger nav-toggle");
+        navMenu.attr("class", "navbar-menu");
+        toggle--;
+    }
+})
+```
+This code shows how I fixed the hamburger menu by creating a toggle function in the script file. Prior to fixing this, I had a lot of trouble getting the hamburger menu to work.
 
+```
+<div class="social-icons">
+            <a href="https://github.com/austinwoo123" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/awoo95/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:awoo004@ucr.edu" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+```
+This code shows how I used font awesome icons to create hrefs for my contact information. I really liked how there was many different icons to choose from and how easy it was to install.
  
-
-
-
-
-
 -----------------------
 ## Built With
 - Bulma CSS
@@ -43,7 +66,7 @@ https://austinwoo123.github.io/Updated-Portfolio/
 
 -----------------------
 ## Licenses
-
+MIT
 -----------------------
 ## Authors
 - Austin Woo

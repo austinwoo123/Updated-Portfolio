@@ -16,7 +16,7 @@ Our assignment was to update our portfolio page to build toward being employer-c
 
 -----------------------
 ## Deployed Link
-https://austinwoo123.github.io/Updated-Portfolio/
+https://austinwoo123.github.io/Updated-Portfolio/index.html
 
 -----------------------
 ## How to Start
